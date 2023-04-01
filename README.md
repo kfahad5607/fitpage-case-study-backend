@@ -1,6 +1,6 @@
-# Fitpage case study frontend
+# Fitpage case study backend
 
-React frontend for listing staock scans
+Node & express backend for listing stock scans
 
 ### Installation
 
