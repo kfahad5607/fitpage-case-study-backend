@@ -1,5 +1,5 @@
 const express = require("express");
-const errorHandler = require("./midleware/errorHandler");
+const errorHandler = require("./middleware/errorHandler");
 require("dotenv").config();
 
 const cors = require("cors");
@@ -14,7 +14,3 @@ const port = process.env.PORT || 8000;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
-
-module.exports = {
-  name: "ff",
-};

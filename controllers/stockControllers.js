@@ -1,6 +1,7 @@
 const { initDB } = require("../DB");
 
-let DATA = initDB();
+const DATA = initDB();
+
 //@desc Get all stocks
 //@route GET /api/stocks
 //@access public
